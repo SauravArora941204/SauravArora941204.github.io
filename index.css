@@ -1,101 +1,105 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
 header {
-    background-color: #222;
-    color: #fff;
-    padding: 15px 0;
+  background-color: #09497e;
+  color: #fff;
+  padding: 15px 0;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 nav h1 {
-    font-size: 24px;
+  font-size: 36px;
+
+&:hover {
+  color: #f0a500;
+}
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 
 nav ul li {
-    margin: 0 15px;
+  margin: 0 15px;
 }
 
 nav a {
-    text-decoration: none;
-    color: #fff;
-    transition: color 0.3s ease;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #f0a500;
+  color: #f0a500;
 }
 
 .text {
-  font-size: 22px;
-  color: #09497e;
+font-size: 22px;
+color: #09497e;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
 }
 
 .skill-list {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  
-  & > li {
-    margin: 10px;
-    font-size: 22px;
-    list-style: square;
-    color: #09497e;
-    width: 220px;
-    height: 24px;
-  }
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+
+& > li {
+  margin: 10px;
+  font-size: 22px;
+  list-style: square;
+  color: #09497e;
+  width: 220px;
+  height: 24px;
+}
 }
 
 .project-info {
-    flex: 1;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 16px;
 }
 
 .project-heading {
-  display: flex;
+display: flex;
 }
 
 .project-info {
-  display: flex;
-  flex-direction: column;
-  
-  & > h3 {
-    margin: 6px 0;
-  }
-  & > span {
-    margin: 2px 0;
-  }
+display: flex;
+flex-direction: column;
+
+& > h3 {
+  margin: 6px 0;
+}
+& > span {
+  margin: 2px 0;
+}
 }
 
 footer {
-    text-align: center;
-    background-color: #222;
-    color: #fff;
-    padding: 15px 0;
-    font-size: 14px;
+  text-align: center;
+  background-color: #222;
+  color: #fff;
+  padding: 15px 0;
+  font-size: 14px;
 }
