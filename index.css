@@ -46,14 +46,14 @@ nav a:hover {
 }
 
 .text {
-font-size: 22px;
+font-size: 20px;
 color: #09497e;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px;
+  padding: 30px;
 }
 
 .skill-list {
@@ -63,12 +63,27 @@ width: 100%;
 
 & > li {
   margin: 10px;
-  font-size: 22px;
+  font-size: 16px;
   list-style: square;
   color: #09497e;
-  width: 220px;
+  width: 250px;
   height: 24px;
+  list-style: none;
+  padding: 12px;
+/*     border: 1px solid grey; */
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  
+  &:hover {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  }
 }
+
+}
+
+.project{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+margin: 24px 0;
 }
 
 .project-info {
